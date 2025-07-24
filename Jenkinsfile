@@ -42,8 +42,8 @@ pipeline {
    }
    stage('Build mysql image') {
      steps{
-       sh 'docker build -t "docker.io/cubensquare/mysql:$BUILD_NUMBER"  "$WORKSPACE"/mysql'
-        sh 'docker push "docker.io/cubensquare/mysql:$BUILD_NUMBER"'
+       sh 'docker build -t "docker.io/suganyak12/mysql:$BUILD_NUMBER"  "$WORKSPACE"/mysql'
+        sh 'docker push "docker.io/suganyak12/mysql:$BUILD_NUMBER"'
         }
       }
     stage('Deploy App') {
