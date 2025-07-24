@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "docker.io/cubensquare/flask"
+    registry = "docker.io/suganyak12/flask"
     registry_mysql = "docker.io/cubensquare/mysql"
     dockerImage = ""
   }
